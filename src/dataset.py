@@ -1,0 +1,5 @@
+from sklearn.datasets import load_breast_cancer
+
+def load_data():
+    data = load_breast_cancer()
+    return data.data, data.target
